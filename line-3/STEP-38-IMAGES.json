@@ -1,0 +1,56 @@
+{
+  "ancestor_sha256": "b2c0a030733c8a88f98720bfbf88cef555dd7b36b210d71ae0f00d460ebcacb5",
+  "generated_sha256": "26cc1fd590c3af17b1d64a1f7b2ca43ae9d44df8d4fbb6f383b0d6c909be8f52",
+  "png": {
+    "paths": [
+      "artifacts/line-3/wall-v18.png",
+      "artifacts/line-3/wall.png"
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 4032241,
+    "sha256": "cbfe182bf760d56163803d5e082b7702c50f6f367543d61ae877470ba801a3d5"
+  },
+  "jpeg": {
+    "path": "dist/line-3/38.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 71067,
+    "sha256": "65577105d9985fcece277afab74a3bdd72ee76e887159277629fefc91626f772"
+  },
+  "preservation": {
+    "addition_rectangle": [
+      454,
+      1174,
+      626,
+      1238
+    ],
+    "changed_pixels": 3300,
+    "changed_bounds": [
+      456,
+      1175,
+      624,
+      1237
+    ],
+    "outside_rectangle_changed_pixels": 0
+  },
+  "visual_review_completed": true,
+  "unmet_visual_requirements": [],
+  "visual_review": {
+    "pepe_recognizable": true,
+    "inherited_hands_digits_each": [
+      5,
+      5
+    ],
+    "added_hands": 0,
+    "writing_observed": false,
+    "limitation": "Local review; the small mark is subtle at thumbnail size."
+  }
+}

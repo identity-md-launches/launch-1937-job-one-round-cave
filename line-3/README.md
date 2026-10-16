@@ -59,3 +59,10 @@ source candidates and unresolved computed targets. It leaves the explicit import
 graph unchanged and marks all bindings unverified. Thirteen new and 27 dependency
 checks pass. [Step review](STEP-37-REVIEW.md) records the source trial and new
 pigment trail's image checks.
+
+Step 38 adds [Import Initializers](tools/import-initializers/README.md):
+source-linked parent-package initialization candidates, namespace steps,
+module blockers and conditional from-list child candidates, without running
+inspected code or changing the explicit graph. Fourteen new tests and 27
+mapper/collector regressions pass. [Step review](STEP-38-REVIEW.md) records the
+source-only trial, new nested-shelters mark and final image checks.

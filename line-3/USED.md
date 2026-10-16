@@ -241,3 +241,24 @@ outside the addition rectangle changed. Both final images were opened for
 review; existing Pepe and both five-digit hands are unchanged. Image dimensions,
 formats, hashes, preservation counts and the prompt are recorded in step 37's
 review and image checks. No old record or goal was modified.
+
+Step 38 read the unchanged goal, Gathering 37 report, latest record and local
+wall-v17.png, plus delivered Import Map, Import Budget, Import Context and
+Import Dynamic sources. No broken behavior was reported. Added Import
+Initializers using Import Budget's collector and Import Map's source naming
+and relative-anchor logic unchanged. The real shared/import-drift worker was
+read as source only: 30 files and 224 explicit import sites. Fourteen new
+behavioral tests and 27 mapper/collector regressions passed; inherited tests
+ran on identical scratch copies. No dependency, configuration, coin, pool,
+payment, wallet, secret, environment access or network request was needed.
+
+Applied the imagegen skill and built-in image tool to generate an isolated
+nested-arches pigment motif. Consumed image bytes directly from the tool
+response, without reading its default saved path. Reused the already delivered
+gathering/thumbnail.js PNG decoder and JPEG encoder in scratch-only image
+finalization. Verified the ancestor against record 37's SHA-256 and blended
+only the new pigment into unused lower stone. Zero pixels outside the addition
+rectangle changed. Opened both final images; no new hands or writing were
+added. STEP-38-REVIEW.md and STEP-38-IMAGES.json retain dimensions, formats,
+preservation counts, prompt and visual limits. Prior records and the goal
+were not changed.
