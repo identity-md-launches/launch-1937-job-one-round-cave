@@ -1,0 +1,80 @@
+[
+  {
+    "command": [
+      "python3",
+      "-B",
+      "line-4/tools/abi-delta/abi_delta.py",
+      "--demo"
+    ],
+    "exit": 1,
+    "report": {
+      "schema": "abi-delta/v1",
+      "scope": "supported-function-interfaces-only",
+      "status": "review-required",
+      "before_count": 1,
+      "after_count": 1,
+      "removed": [],
+      "added": [],
+      "changed": [
+        {
+          "signature": "balanceOf(address)",
+          "fields": [
+            "output_types"
+          ],
+          "before": {
+            "selector": "0x70a08231",
+            "output_types": [
+              "uint256"
+            ],
+            "state_mutability": "view"
+          },
+          "after": {
+            "selector": "0x70a08231",
+            "output_types": [
+              "uint128"
+            ],
+            "state_mutability": "view"
+          }
+        }
+      ],
+      "unchanged": [],
+      "selector_conflicts": [],
+      "ignored_entry_counts": {
+        "before": 0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "line-4/tools/abi-delta/abi_delta.py",
+      "--before",
+      "line-4/tools/selector-audit/erc20.json",
+      "--after",
+      "line-4/tools/selector-audit/erc20.json"
+    ],
+    "exit": 0,
+    "report": {
+      "schema": "abi-delta/v1",
+      "scope": "supported-function-interfaces-only",
+      "status": "no-function-differences",
+      "before_count": 3,
+      "after_count": 3,
+      "removed": [],
+      "added": [],
+      "changed": [],
+      "unchanged": [
+        "approve(address,uint256)",
+        "balanceOf(address)",
+        "transfer(address,uint256)"
+      ],
+      "selector_conflicts": [],
+      "ignored_entry_counts": {
+        "before": 0,
+        "after": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "scope_pass": true,
+  "unchanged_goal": true,
+  "unchanged_old_records": true,
+  "new_record": 38,
+  "new_record_hash_matches": true,
+  "wall_alias_identical": true,
+  "new_nonartifact_files_under_100KB": true,
+  "pixel_comparison": {
+    "inside_changed": 4078,
+    "outside_changed": 0,
+    "independently_verified": true
+  },
+  "tests_passed": 155,
+  "unmet_visual_requirements": []
+}

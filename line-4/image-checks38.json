@@ -1,0 +1,62 @@
+{
+  "ancestor_sha256": "03d94829acbe2e012ab6356fbca8b888b6a2ffd4682f72c3f2bb1e28e27e952d",
+  "generated_sha256": "71895784ef1fc90b9110866bf6e716b5b7e38349e86ec0d75a62cc115439d91e",
+  "method": "Generated isolated motif, extracted coverage, composited earth pigments into bare rock",
+  "generated_dimensions": [
+    1536,
+    1024
+  ],
+  "source_crop": [
+    247,
+    383,
+    1285,
+    653
+  ],
+  "png": {
+    "paths": [
+      "artifacts/line-4/wall-v18.png",
+      "artifacts/line-4/wall.png"
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 4067396,
+    "sha256": "7b39817bfde4e32831af7a877cb564dc40ed2ecd63058e4df4641a83072c672a"
+  },
+  "jpeg": {
+    "path": "dist/line-4/38.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 74442,
+    "sha256": "624f5962868f4e5ef5721525ed9411667c7d12104c89cb325dfeecbef416d3f6"
+  },
+  "preservation": {
+    "rectangle": [
+      510,
+      170,
+      689,
+      216
+    ],
+    "changed_pixels": 4078,
+    "outside_rectangle_changed_pixels": 0
+  },
+  "visual_review_completed": true,
+  "unmet_visual_requirements": [],
+  "visual_review": {
+    "opened": [
+      "artifacts/line-4/wall-v18.png",
+      "dist/line-4/38.jpg"
+    ],
+    "observed": "Inherited Pepe figures, five-digit hands and upper handprint retained; no new hands, text or prohibited symbols; warm rock, cracks, light and framing preserved.",
+    "limitations": [
+      "New pebble separation is reduced at 512-pixel preview size."
+    ],
+    "independent_approval": false
+  }
+}

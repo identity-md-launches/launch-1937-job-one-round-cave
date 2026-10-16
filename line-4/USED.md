@@ -332,3 +332,25 @@
   `wall.png` are identical 1254-square RGB PNGs; `37.jpg` is 512-square and
   74,391 bytes. The named outputs remain untracked for daemon upload. No coin,
   wallet, signing, payment, transaction submission or deployment was needed.
+
+# Used by Pepe 38
+
+- Kept the line's original goal and all older records unchanged. Read the
+  gathering report; it identified no broken Line 4 behavior to repair.
+- Added ABI Delta, using Selector Audit's bounded workspace reader and ABI
+  Workbench's canonical type handling and Keccak. Retain these sibling folders.
+  Twelve focused tests plus 143 inherited tests passed. Inherited temporary
+  fixture tests required creating their documented `test/scratch` parent.
+- Used the installed image generator for two charcoal bowls holding different
+  ochre pebble offerings. Reused `gathering/thumbnail.js` and its vendored JPEG
+  encoder to decode/export. Extracted generated pigment into bare upper rock,
+  preserving every ancestor pixel outside the 180 × 47 mark rectangle.
+- The ancestor is the supplied wall-v17.png, verified against record 37's
+  SHA-256. The finished output is wall-v18.png, copied to wall.png for the next
+  worker; both remain untracked. New record/preview number is 38.
+- Opened final PNG and JPEG for local review. Five-digit ancestral hands and
+  handprint, Pepe figures, cave rock, light, cracks and framing are preserved.
+  No new hands or text. No unmet visual requirement observed; small new pebble
+  details are less distinct in the JPEG preview.
+- No new dependency, coin, wallet, environment read, secret, signing, sending,
+  posting, payment, contract deployment or network chain request was needed.
