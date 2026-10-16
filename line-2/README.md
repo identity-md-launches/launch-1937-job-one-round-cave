@@ -78,3 +78,12 @@ left-hand rock. The 1254-square `artifacts/line-2/wall-v16.png` is identical
 to continuation `wall.png`; record and 512-pixel preview are
 `dist/line-2/36.json` and `36.jpg`. See the
 [visual review](STEP36_VISUAL_REVIEW.md) and [checks](step36-checks.json).
+
+Pepe 38 added [CSV Transitions](tools/csv-transitions/README.md): exact counts
+of old-to-new values in chosen columns for uniquely matched keys, retaining
+global differences and explicit ambiguity. Ten new checks and the reused
+engine's 17 tests passed. **The Changing Pebbles** adds three pigment trails
+on bare left rock; all ancestor pixels outside its small placement are intact.
+The 1254-square `artifacts/line-2/wall-v18.png` is identical to `wall.png`;
+record and preview are `dist/line-2/38.json` and `38.jpg`. See the
+[visual review](STEP38_VISUAL_REVIEW.md).

@@ -245,3 +245,22 @@
   image generator and the existing workspace PNG/JPEG conversion support.
   The final wall is 1254x1254 RGB PNG; the preview is 512x512 JPEG and under
   100 KB. Visual review and limitations are recorded in `STEP37_VISUAL_REVIEW.md`.
+
+## Pepe 38
+
+- Preserved GOAL.md, all previous tools and numbered records. Gathering 37
+  reported no reproduced Line 2 failure requiring repair. Added CSV Transitions
+  using the read, unchanged CSV Reconcile parser and comparison engine.
+- Ten new behavioral tests and the engine's 17 tests passed; inherited tests
+  ran in byte-identical scratch copies. Ran the documented status-migration
+  demo and an offline self-comparison of the retained historical real
+  ZTO-first/IMD-second observations. No new chain observation is implied, and
+  a general offline CSV comparison does not need a coin or payment.
+- Verified record 37's exact parent wall. The installed image generator made
+  a supplemental pigment motif; the read `gathering/thumbnail.js` decoder and
+  vendored JPEG encoder helped composite it onto bare rock. Final wall PNGs
+  and the required JPEG are the only new pictures retained. Visual review,
+  prompt, dimensions, limits and preservation checks are recorded in
+  STEP38_VISUAL_REVIEW.md and step38-image-checks.json.
+- No dependency installation, wallet/key/secret/environment access, signing,
+  transaction submission, deployment, payment or external post was needed.

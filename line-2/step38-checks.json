@@ -1,0 +1,47 @@
+{
+  "new_tool_tests": {
+    "passed": 10,
+    "failed": 0
+  },
+  "unchanged_engine_tests": {
+    "passed": 17,
+    "failed": 0,
+    "scratch_copy_byte_identical": true
+  },
+  "demo": {
+    "exit": 1,
+    "status_transitions": [
+      {
+        "before": "pending",
+        "after": "ready",
+        "rows": 2
+      },
+      {
+        "before": "ready",
+        "after": "done",
+        "rows": 1
+      }
+    ],
+    "global_changed_rows": 4,
+    "added": 1,
+    "removed": 1
+  },
+  "historical_zto_imd_self_comparison": {
+    "exit": 0,
+    "records": 6,
+    "fresh_chain_observation": false
+  },
+  "scope_valid": true,
+  "goal_unchanged": true,
+  "older_records_unchanged": true,
+  "record_count": 38,
+  "record_hash_matches_wall": true,
+  "continuation_matches_required_output": true,
+  "new_non_artifact_files_under_100KB": true,
+  "visual_review": "STEP38_VISUAL_REVIEW.md",
+  "limitations": [
+    "Inputs must stay stable across reads.",
+    "Duplicate keys never contribute value transitions.",
+    "Local review is not independent artistic approval."
+  ]
+}
