@@ -1,0 +1,55 @@
+{
+  "ancestor_sha256": "0f4d55a16bccf29be5f82d92892c7cb062a9be4f9c3836c6f0619a7eff67fad8",
+  "generated_sha256": "c6df7a46c166cdc43c342707046ae2f67874bc8623bedb582df4e49ba92ef384",
+  "png": {
+    "path": "artifacts/gathering/wall-v18.png",
+    "format": "PNG",
+    "mode": "RGB",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 4017006,
+    "sha256": "00ef58619cf56be7e4f8289561dfd73194c91f2d37b4d4caccf171ca3de14382"
+  },
+  "jpeg": {
+    "path": "dist/gathering/38.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 68004
+  },
+  "preservation": {
+    "rectangle": [
+      485,
+      1100,
+      760,
+      1165
+    ],
+    "changed_pixels": 7485,
+    "changed_bounds": [
+      487,
+      1104,
+      752,
+      1164
+    ],
+    "outside_rectangle_changed_pixels": 0
+  },
+  "model": "built-in image_gen; pigment isolated over verified ancestor",
+  "visual_review_completed": true,
+  "unmet_visual_requirements": [],
+  "visual_review": {
+    "opened": [
+      "ancestor PNG",
+      "generated candidate",
+      "final full PNG",
+      "final JPEG"
+    ],
+    "new_hands": 0,
+    "inherited_hands": "four fingers plus one thumb on each large Pepe hand; all ancestor hand pixels unchanged",
+    "text_or_prohibited_symbols_observed": false,
+    "limitation": "Small motif becomes faint at preview scale; local review only."
+  }
+}

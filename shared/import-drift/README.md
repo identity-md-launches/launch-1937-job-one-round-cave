@@ -187,3 +187,5 @@ See the gathering report for the observed failures and limits.
 [Import Snapshot Undo](UNDO.md) connects checked CSV undo to module-keyed snapshots, with exact forward-result fingerprints and an offline HTML review. It reverts saved table values, never Python files.
 
 Gathering 37 adds [Reading Order CSV](READING_ORDER.md): source-linked dependency reading waves exported for exact keyed comparison of revisions.
+
+Gathering 38 adds [Initializer CSV Review](INITIALIZERS.md): source-linked package initialization candidates, exact coordinate-keyed differences and status-transition counts.

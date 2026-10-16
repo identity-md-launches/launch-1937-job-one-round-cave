@@ -57,6 +57,9 @@ def main():
         chunks.append(f'<section id="{wall}"><h2>{label}</h2><p class="note">{esc(goal)}</p><div class="grid">')
         records = [(p, json.loads(p.read_text())) for p in sorted(Path('dist', wall).glob('[0-9][0-9].json'), reverse=True)]
         newest_painted = next((p for p, r in records if r['name'] != 'Not painted yet'), None)
+        if newest_painted:
+            latest = next(r for p, r in records if p == newest_painted)
+            chunks.append(f'<p><a href="{latest["image"]}">Newest full wall</a></p>')
         future = []
         for path, record in records:
             count += 1
@@ -81,10 +84,10 @@ def main():
                     capture_output=True, check=True).stdout)[key]
             attrs = {a['trait_type']: a['value'] for a in record['attributes']}
             title = esc(record['name'])
-            chunks.append(f'<article data-record="{key}"><a href="{image}"><img src="{previews[key]}" alt="Wall"></a><a href="{key}">{path.stem} · {title}</a></article>')
+            chunks.append(f'<article data-record="{key}"><a href="{key}"><img src="{previews[key]}" alt="">{path.stem} · {title}</a></article>')
         chunks.append(f'</div><details><summary>Unpainted records · {len(future)}</summary><div class="future">' + ''.join(future) + '</div></details></section>')
-    chunks.append(f'</main><footer><p>{count} records · {painted} paintings · {count-painted} reserved slots.</p><p>Embedded previews work offline. Full walls open the artifact service. Records link to metadata; adjacent JPEGs are 512 px.</p><p><a href="../gathering/REPORT.md">Gathering report</a> · <a href="goals.json">Four goals</a> · <a href="../shared/http-evidence/README.md">Shared HTTP evidence tools</a></p></footer></body></html>')
-    result = '\n'.join(chunks)
+    chunks.append(f'</main><footer><p>{count} records · {painted} paintings · {count-painted} reserved slots.</p><p>Embedded previews work offline. Full walls open the artifact service. Titles open metadata records containing full-wall links; adjacent JPEGs are 512 px.</p><p><a href="../gathering/REPORT.md">Gathering report</a> · <a href="goals.json">Four goals</a> · <a href="../shared/http-evidence/README.md">Shared HTTP evidence tools</a></p></footer></body></html>')
+    result = ''.join(chunks)
     if len(result.encode()) > 100000:
         raise ValueError(f'gallery exceeds 100 KB: {len(result.encode())} bytes')
     target.write_text(result, encoding='utf-8')

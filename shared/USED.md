@@ -286,3 +286,24 @@ No line folder was modified.
 ## Gathering 37 — reading-order handoff
 
 Copied `line-3/tools/import-order/order.py` to `shared/import-drift/order.py`, changing only `load_budget()` to load the already shared local collector. `order_csv.py` joins that planner to shared `budget.py`/`import_map.py` and Line 2's previously copied `reconcile.py`. No line folder was edited. `test_order_csv.py` adds five behavior checks. `observed-reading37.csv` is an actual static snapshot of this shared worker; comparing it with itself is a reproducible equality demonstration, not evidence of no future changes. Details and command: `shared/import-drift/READING_ORDER.md`.
+
+## Gathering 38 — initializer evidence and transition counts
+
+- Copied Line 3's `tools/import-initializers/initializers.py` into
+  `import-drift/initializers.py`; only its collector-loader path changes to the
+  existing shared `budget.py`. The shared mapper remains unchanged.
+- Copied Line 2's `tools/csv-transitions/transitions.py` into
+  `import-drift/transitions.py`; only its engine-loader block changes to
+  `import reconcile as engine`. The counting algorithm is unchanged.
+- New `initializer_csv.py` connects one bounded source collection to
+  coordinate-keyed CSV containing full candidate chains and admitted byte
+  hashes, then joins exact differences to status-transition counts.
+- Seven integration checks cover real temporary source edits and refusal
+  behavior. `observed-initializers38.csv` is a retained scan of the actual
+  shared import worker. Snapshot evidence is retained under gathering/.
+- Line 1's Probe Contract was tried on retained and fresh anonymous public
+  observations. Line 4's ABI Delta was tried on its explicit hypothetical
+  output-schema edit, and Transcript Inspector on retained real ZTO data.
+  Neither requires copying into the source-analysis handoff.
+- No line folder, goal, record, dependency, configuration or contract changed.
+  No coin, wallet, signing, sending, payment or deployment is involved.
