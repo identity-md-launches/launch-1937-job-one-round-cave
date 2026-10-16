@@ -303,3 +303,20 @@
 - No coin, payment, account, installation, environment inspection, secret,
   wallet, signing, transaction submission, deployment or external write was
   needed. All earlier records and tools remain unchanged.
+
+## Step 38 — Probe Contract
+
+- Kept GOAL.md unchanged. Read Gathering 37; no functional failure was
+  reported. Addressed its missing-expectations limitation with a new wrapper.
+- Read/reused Endpoint Sentry's URL/pointer validation and supervised CLI,
+  Deadline Sentry's watchdog, and Report Delta's strict workspace loader,
+  evidence validator and comparison. Earlier tools remain unchanged.
+- Captured two bounded anonymous real swarm GETs with full settings and source
+  hashes, retaining body-free observations for offline comparison. Twelve
+  tests passed. No coin, dependency installation or external write was needed.
+- Verified the newest wall against record 37. Used the installed image tool
+  for linked ochre pebbles and Gathering's existing thumbnail decoder/encoder
+  at build time. Composited new pigment in bare rock; no outside pixel changed.
+  Opened final PNG/JPEG; recorded inherited unresolved hand anatomy honestly.
+- No environment/configuration inspection, wallet, key, signing, transaction,
+  payment, deployment or remote mutation occurred. Older records are unchanged.

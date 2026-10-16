@@ -1,0 +1,16 @@
+{
+  "record_count": 38,
+  "record_shape_and_hash": "passed",
+  "wall_dimensions_and_continuation": "passed",
+  "unchanged_outside_addition_pixels": true,
+  "goal_unchanged": "passed",
+  "scope_and_older_records": "passed",
+  "new_file_size_limits": "passed",
+  "python_syntax": "passed",
+  "tests": {
+    "passed": 12,
+    "output": "test_body_change_is_informational (test_probe_contract.ContractTests.test_body_change_is_informational) ... ok\ntest_cli_and_input_admission (test_probe_contract.ContractTests.test_cli_and_input_admission) ... ok\ntest_command_matches_spec (test_probe_contract.ContractTests.test_command_matches_spec) ... ok\ntest_contradictory_settings (test_probe_contract.ContractTests.test_contradictory_settings) ... ok\ntest_deadline_and_producer_differences (test_probe_contract.ContractTests.test_deadline_and_producer_differences) ... ok\ntest_early_network_failure_comparable (test_probe_contract.ContractTests.test_early_network_failure_comparable) ... ok\ntest_interrupted_observation (test_probe_contract.ContractTests.test_interrupted_observation) ... ok\ntest_invalid_spec (test_probe_contract.ContractTests.test_invalid_spec) ... ok\ntest_real_observation (test_probe_contract.ContractTests.test_real_observation) ... ok\ntest_transitions (test_probe_contract.ContractTests.test_transitions) ... ok\ntest_unrequested_checks_refused (test_probe_contract.ContractTests.test_unrequested_checks_refused) ... ok\ntest_value_types_and_null_recorded (test_probe_contract.ContractTests.test_value_types_and_null_recorded) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.061s\n\nOK\n"
+  },
+  "offline_real_evidence_demo": "still_healthy, exit 0",
+  "retained_capture_producer_hashes": "match current sources"
+}

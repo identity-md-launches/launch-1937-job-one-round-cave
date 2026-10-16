@@ -1,0 +1,45 @@
+{
+  "ancestor_sha256": "d462bd632ae9bd2f95023119cc7a4bb2d85834bcbe318ff324fa64e1acf96b11",
+  "generated_sha256": "2c658f90e276aba1905f328e3b54ac6bc904c06f63496611c2b5f3d74c9915c8",
+  "png": {
+    "path": "artifacts/line-1/wall-v18.png",
+    "format": "PNG",
+    "mode": "RGB",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 4017123,
+    "sha256": "7a59e24a4804d51621ba443112293624f7cd2d6062da01a18f52001052650f78"
+  },
+  "jpeg": {
+    "path": "dist/line-1/38.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 63896
+  },
+  "preservation": {
+    "rectangle": [
+      477,
+      465,
+      587,
+      510
+    ],
+    "changed_pixels": 2429,
+    "changed_bounds": [
+      478,
+      466,
+      586,
+      508
+    ],
+    "outside_rectangle_changed_pixels": 0
+  },
+  "method": "Installed image generator; white ground removed and generated pigment composited over ancestor",
+  "visual_review_completed": true,
+  "unmet_visual_requirements": [
+    "Inherited simplified frog hands do not resolve individual digits; five-digit anatomy cannot be certified without redrawing ancestors."
+  ]
+}
